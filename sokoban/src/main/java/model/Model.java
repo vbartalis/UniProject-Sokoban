@@ -64,7 +64,7 @@ public class Model {
         try {
             Gson gson = new GsonBuilder().create();
             Reader reader = null;
-            reader = new FileReader("~/sokoban/save.json");
+            reader = new FileReader(System.getProperty("user.home") + "/sokoban/save.json");
             Type type = new TypeToken<List<Save>>(){}.getType();
             saves = gson.fromJson(reader, type);
             logger.info("save file successfully red");
@@ -83,7 +83,7 @@ public class Model {
     public void saveFileWriter(){
         logger.info("trying to save");
         try {
-            File file = new File("~/sokoban/save.json");
+            File file = new File(System.getProperty("user.home") + "/sokoban/save.json");
             File parent = file.getParentFile();
             if (!parent.exists() && !parent.mkdirs()) {
                 throw new IllegalStateException("Couldn't create dir: " + parent);

@@ -1,2 +1,0 @@
-processClover (  {"children":["","controller/","view/","model/"],"name":"Clover database Wed May 15 2019 21:47:40 CEST","stats":{"AvgMethodComplexity":2.5142858,"Complexity":88,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":4,"TotalPercentageCovered":73.64217,"TotalStatements":495,"UncoveredElements":165},"title":"sokoban 1.0-SNAPSHOT"}
- ); 
