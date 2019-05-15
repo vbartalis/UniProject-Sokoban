@@ -63,8 +63,7 @@ public class Model {
         List<Save> saves = new ArrayList<>();
         try {
             Gson gson = new GsonBuilder().create();
-            Reader reader = null;
-            reader = new FileReader(System.getProperty("user.home") + "/sokoban/save.json");
+            Reader reader = new FileReader(System.getProperty("user.home") + "/sokoban/save.json");
             Type type = new TypeToken<List<Save>>(){}.getType();
             saves = gson.fromJson(reader, type);
             logger.info("save file successfully red");
