@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"LevelTest","l":"LevelTest()","url":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"ModelTest","l":"ModelTest()","url":"%3Cinit%3E()"}]
+memberSearchIndex = [{"p":"<Unnamed>","c":"SokobanTestSuite","l":"SokobanTestSuite()","url":"%3Cinit%3E()"}]

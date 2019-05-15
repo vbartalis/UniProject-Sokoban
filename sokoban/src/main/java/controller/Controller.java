@@ -63,12 +63,14 @@ public class Controller implements Initializable {
     }
 
     public void handleMinusClick(){
-        levelNumberLabel.setText(model.previousLevel(levelNumberLabel.getText()));
+       // levelNumberLabel.setText(model.previousLevel(levelNumberLabel.getText()));
+        levelNumberLabel.setText(model.previousLevel());
         handleResetClick();
     }
 
     public void handlePlusClick(){
-        levelNumberLabel.setText(model.nextLevel(levelNumberLabel.getText()));
+      //  levelNumberLabel.setText(model.nextLevel(levelNumberLabel.getText()));
+        levelNumberLabel.setText(model.nextLevel());
         handleResetClick();
     }
 

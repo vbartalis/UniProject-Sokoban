@@ -2,23 +2,42 @@
 
 import lombok.*;
 
-<span class="nc" id="L5">@ToString</span>
-<span class="nc" id="L6">@AllArgsConstructor</span>
-<span class="nc bnc" id="L7" title="All 16 branches missed.">@Data</span>
+/**
+ * Class representing the best result of the player from a level.
+ */
+<span class="nc" id="L8">@ToString</span>
+<span class="nc" id="L9">@AllArgsConstructor</span>
+<span class="fc" id="L10">@NoArgsConstructor</span>
+<span class="pc bpc" id="L11" title="9 of 16 branches missed.">@Data</span>
 public class Save {
-<span class="nc" id="L9">    String recordStep;</span>
-<span class="nc" id="L10">    int levelNumber;</span>
+    /**
+     * The best result of a level.
+     */
+<span class="fc" id="L16">    String recordStep;</span>
+    /**
+     * The id representing the level.
+     */
+<span class="fc" id="L20">    int levelNumber;</span>
 
-<span class="nc" id="L12">    public Save(int levelNumber) {</span>
-<span class="nc" id="L13">        this.recordStep = &quot;-&quot;;</span>
-<span class="nc" id="L14">        this.levelNumber = levelNumber;</span>
-<span class="nc" id="L15">    }</span>
+    /**
+     * Constructor of {@link Save} class, creates an empty save.
+     * @param levelNumber indicates the id representing which level does the save correspond to.
+     */
+<span class="fc" id="L26">    public Save(int levelNumber) {</span>
+<span class="fc" id="L27">        this.recordStep = &quot;-&quot;;</span>
+<span class="fc" id="L28">        this.levelNumber = levelNumber;</span>
+<span class="fc" id="L29">    }</span>
 
+    /**
+     * Checks if the {@code string} if a new record.
+     * @param string the value to be chacked if it is a new record.
+     * @return true if {@code string} is a new record.
+     */
     public boolean isNewRecord(String string){
-<span class="nc bnc" id="L18" title="All 4 branches missed.">        if (recordStep.contentEquals(&quot;-&quot;) || Integer.parseInt(string) &lt; Integer.parseInt(recordStep)) {</span>
-<span class="nc" id="L19">            return true;</span>
+<span class="fc bfc" id="L37" title="All 4 branches covered.">        if (recordStep.contentEquals(&quot;-&quot;) || Integer.parseInt(string) &lt; Integer.parseInt(recordStep)) {</span>
+<span class="fc" id="L38">            return true;</span>
         }
-<span class="nc" id="L21">        return false;</span>
+<span class="fc" id="L40">        return false;</span>
     }
 
 

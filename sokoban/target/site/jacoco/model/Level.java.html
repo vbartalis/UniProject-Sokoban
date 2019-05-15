@@ -9,85 +9,133 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-<span class="pc bnc" id="L12" title="All 44 branches missed.">@Data</span>
+/**
+ * Class representing a level of the game.
+ */
+<span class="pc bpc" id="L15" title="43 of 44 branches missed.">@Data</span>
 public class Level {
-<span class="nc" id="L14">    String name;</span>
-<span class="nc" id="L15">    int width;</span>
-<span class="nc" id="L16">    int height;</span>
-<span class="nc" id="L17">    List&lt;String&gt; stringMap;</span>
-<span class="fc" id="L18">    List&lt;List&lt;Character&gt;&gt; charMap;</span>
-<span class="nc" id="L19">    Position playerPosition;</span>
-<span class="nc" id="L20">    int step;</span>
+    /**
+     * Name of the level.
+     */
+<span class="nc" id="L20">    String name;</span>
+    /**
+     * Width of the level's map.
+     */
+<span class="nc" id="L24">    int width;</span>
+    /**
+     * Height of the level's map.
+     */
+<span class="nc" id="L28">    int height;</span>
+    /**
+     * List of {@code String} representing the original map of the level.
+     *
+     */
+<span class="nc" id="L33">    List&lt;String&gt; stringMap;</span>
+    /**
+     * List of {@code Character} lists, representing altered map the level.
+     */
+<span class="fc" id="L37">    List&lt;List&lt;Character&gt;&gt; charMap;</span>
+    /**
+     * Position representing the players coordinates on the {@code charMap}.
+     */
+<span class="nc" id="L41">    Position playerPosition = new Position();</span>
+    /**
+     * Integer representing the number of steps the Player has made on the level.
+     */
+<span class="fc" id="L45">    int step;</span>
 
-<span class="fc" id="L22">    private static Logger logger = LoggerFactory.getLogger(Model.class);</span>
+<span class="fc" id="L47">    private static Logger logger = LoggerFactory.getLogger(Model.class);</span>
 
 
 
+    /**
+     * Method  for creating a new {@code charMap} from {@code stringMap}.
+     *
+     */
     public void newCharMap(){
-<span class="fc" id="L27">        logger.info(&quot;making new charmap&quot;);</span>
-<span class="fc" id="L28">        charMap = new ArrayList&lt;&gt;();</span>
-<span class="fc bfc" id="L29" title="All 2 branches covered.">        for (int i = 0; i &lt; stringMap.size(); i++) {</span>
-<span class="fc" id="L30">            List&lt;Character&gt; characters = new ArrayList&lt;&gt;();</span>
-<span class="fc bfc" id="L31" title="All 2 branches covered.">            for (int j = 0; j &lt; stringMap.get(i).length(); j++) {</span>
-<span class="fc" id="L32">                characters.add(stringMap.get(i).charAt(j));</span>
+<span class="fc" id="L56">        logger.info(&quot;making new charmap&quot;);</span>
+<span class="fc" id="L57">        charMap = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L58" title="All 2 branches covered.">        for (int i = 0; i &lt; stringMap.size(); i++) {</span>
+<span class="fc" id="L59">            List&lt;Character&gt; characters = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">            for (int j = 0; j &lt; stringMap.get(i).length(); j++) {</span>
+<span class="fc" id="L61">                characters.add(stringMap.get(i).charAt(j));</span>
             }
-<span class="fc" id="L34">            charMap.add(characters);</span>
+<span class="fc" id="L63">            charMap.add(characters);</span>
         }
-<span class="fc" id="L36">        playerPosition = new Position();</span>
-<span class="fc" id="L37">    }</span>
+<span class="fc" id="L65">    }</span>
 
-    public void move(int x, int y) {
-<span class="fc" id="L40">        logger.info(&quot;trying to move to [{}] [{}]&quot;, x, y);</span>
-<span class="fc" id="L41">        playerPosition.setPosition(charMap);</span>
-<span class="fc" id="L42">        int h = playerPosition.h;</span>
-<span class="fc" id="L43">        int w = playerPosition.w;</span>
+    /**
+     * Method for moving the Player and the Crates on the map. Modifies the
+     * {@code playerPosition} and the {@code charMap}.
+     * @param i represents how much the player wants to move on the first coordinates.
+     * @param j represents how much the player wants to move on the second coordinates.
+     */
+    public void move(int i, int j) {
+<span class="fc" id="L74">        logger.info(&quot;trjing to move to [{}] [{}]&quot;, i, j);</span>
+<span class="fc" id="L75">        playerPosition.setPosition(charMap);</span>
+<span class="fc" id="L76">        int h = playerPosition.h;</span>
+<span class="fc" id="L77">        int w = playerPosition.w;</span>
 
-<span class="fc bfc" id="L45" title="All 2 branches covered.">        if (charMap.get(h).get(w) == '@'){</span>
-<span class="fc bfc" id="L46" title="All 2 branches covered.">            if (charMap.get(h+x).get(w+y) == ' '){charMap.get(h).set(w,' '); charMap.get(h+x).set(w+y,'@'); addStep(); logger.info(&quot;moved&quot;);}</span>
-<span class="fc bfc" id="L47" title="All 2 branches covered.">            else if (charMap.get(h+x).get(w+y) == '.'){charMap.get(h).set(w,' '); charMap.get(h+x).set(w+y,'+'); addStep(); logger.info(&quot;moved&quot;);}</span>
-<span class="fc bfc" id="L48" title="All 2 branches covered.">            else if (charMap.get(h+x).get(w+y) == '$'){</span>
-<span class="fc bfc" id="L49" title="All 2 branches covered.">                if (charMap.get(h+2*x).get(w+2*y) == ' '){charMap.get(h).set(w,' '); charMap.get(h+x).set(w+y,'@'); charMap.get(h+2*x).set(w+2*y,'$'); addStep(); logger.info(&quot;moved&quot;);}</span>
-<span class="pc bpc" id="L50" title="1 of 2 branches missed.">                else if (charMap.get(h+2*x).get(w+2*y) == '.'){charMap.get(h).set(w,' '); charMap.get(h+x).set(w+y,'@'); charMap.get(h+2*x).set(w+2*y,'*'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="fc bfc" id="L79" title="All 2 branches covered.">        if (charMap.get(h).get(w) == '@'){</span>
+<span class="fc bfc" id="L80" title="All 2 branches covered.">            if (charMap.get(h+i).get(w+j) == ' '){charMap.get(h).set(w,' '); charMap.get(h+i).set(w+j,'@'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="fc bfc" id="L81" title="All 2 branches covered.">            else if (charMap.get(h+i).get(w+j) == '.'){charMap.get(h).set(w,' '); charMap.get(h+i).set(w+j,'+'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="fc bfc" id="L82" title="All 2 branches covered.">            else if (charMap.get(h+i).get(w+j) == '$'){</span>
+<span class="fc bfc" id="L83" title="All 2 branches covered.">                if (charMap.get(h+2*i).get(w+2*j) == ' '){charMap.get(h).set(w,' '); charMap.get(h+i).set(w+j,'@'); charMap.get(h+2*i).set(w+2*j,'$'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="pc bpc" id="L84" title="1 of 2 branches missed.">                else if (charMap.get(h+2*i).get(w+2*j) == '.'){charMap.get(h).set(w,' '); charMap.get(h+i).set(w+j,'@'); charMap.get(h+2*i).set(w+2*j,'*'); addStep(); logger.info(&quot;moved&quot;);}</span>
             }
-<span class="pc bpc" id="L52" title="1 of 2 branches missed.">            else if (charMap.get(h+x).get(w+y) == '*'){</span>
-<span class="fc bfc" id="L53" title="All 2 branches covered.">                if (charMap.get(h+2*x).get(w+2*y) == ' '){charMap.get(h).set(w,' '); charMap.get(h+x).set(w+y,'+'); charMap.get(h+2*x).set(w+2*y,'$'); addStep(); logger.info(&quot;moved&quot;);}</span>
-<span class="pc bpc" id="L54" title="1 of 2 branches missed.">                else if (charMap.get(h+2*x).get(w+2*y) == '.'){charMap.get(h).set(w,' '); charMap.get(h+x).set(w+y,'+'); charMap.get(h+2*x).set(w+2*y,'*'); addStep(); logger.info(&quot;moved&quot;);}</span>
-            }
-        }
-<span class="pc bpc" id="L57" title="1 of 2 branches missed.">        else if (charMap.get(h).get(w) == '+'){</span>
-<span class="fc bfc" id="L58" title="All 2 branches covered.">            if (charMap.get(h+x).get(w+y) == ' '){charMap.get(h).set(w,'.'); charMap.get(h+x).set(w+y,'@'); addStep(); logger.info(&quot;moved&quot;);}</span>
-<span class="fc bfc" id="L59" title="All 2 branches covered.">            else if (charMap.get(h+x).get(w+y) == '.'){charMap.get(h).set(w,'.'); charMap.get(h+x).set(w+y,'+'); addStep(); logger.info(&quot;moved&quot;);}</span>
-<span class="fc bfc" id="L60" title="All 2 branches covered.">            else if (charMap.get(h+x).get(w+y) == '$'){</span>
-<span class="fc bfc" id="L61" title="All 2 branches covered.">                if (charMap.get(h+2*x).get(w+2*y) == ' '){charMap.get(h).set(w,'.'); charMap.get(h+x).set(w+y,'@'); charMap.get(h+2*x).set(w+2*y,'$'); addStep(); logger.info(&quot;moved&quot;);}</span>
-<span class="pc bpc" id="L62" title="1 of 2 branches missed.">                else if (charMap.get(h+2*x).get(w+2*y) == '.'){charMap.get(h).set(w,'.'); charMap.get(h+x).set(w+y,'@'); charMap.get(h+2*x).set(w+2*y,'*'); addStep(); logger.info(&quot;moved&quot;);}</span>
-            }
-<span class="pc bpc" id="L64" title="1 of 2 branches missed.">            else if (charMap.get(h+x).get(w+y) == '*'){</span>
-<span class="fc bfc" id="L65" title="All 2 branches covered.">                if (charMap.get(h+2*x).get(w+2*y) == ' '){charMap.get(h).set(w,'.'); charMap.get(h+x).set(w+y,'+'); charMap.get(h+2*x).set(w+2*y,'$'); addStep(); logger.info(&quot;moved&quot;);}</span>
-<span class="pc bpc" id="L66" title="1 of 2 branches missed.">                else if (charMap.get(h+2*x).get(w+2*y) == '.'){charMap.get(h).set(w,'.'); charMap.get(h+x).set(w+y,'+'); charMap.get(h+2*x).set(w+2*y,'*'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="pc bpc" id="L86" title="1 of 2 branches missed.">            else if (charMap.get(h+i).get(w+j) == '*'){</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">                if (charMap.get(h+2*i).get(w+2*j) == ' '){charMap.get(h).set(w,' '); charMap.get(h+i).set(w+j,'+'); charMap.get(h+2*i).set(w+2*j,'$'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="pc bpc" id="L88" title="1 of 2 branches missed.">                else if (charMap.get(h+2*i).get(w+2*j) == '.'){charMap.get(h).set(w,' '); charMap.get(h+i).set(w+j,'+'); charMap.get(h+2*i).set(w+2*j,'*'); addStep(); logger.info(&quot;moved&quot;);}</span>
             }
         }
-<span class="fc" id="L69">    }</span>
+<span class="pc bpc" id="L91" title="1 of 2 branches missed.">        else if (charMap.get(h).get(w) == '+'){</span>
+<span class="fc bfc" id="L92" title="All 2 branches covered.">            if (charMap.get(h+i).get(w+j) == ' '){charMap.get(h).set(w,'.'); charMap.get(h+i).set(w+j,'@'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="fc bfc" id="L93" title="All 2 branches covered.">            else if (charMap.get(h+i).get(w+j) == '.'){charMap.get(h).set(w,'.'); charMap.get(h+i).set(w+j,'+'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="fc bfc" id="L94" title="All 2 branches covered.">            else if (charMap.get(h+i).get(w+j) == '$'){</span>
+<span class="fc bfc" id="L95" title="All 2 branches covered.">                if (charMap.get(h+2*i).get(w+2*j) == ' '){charMap.get(h).set(w,'.'); charMap.get(h+i).set(w+j,'@'); charMap.get(h+2*i).set(w+2*j,'$'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="pc bpc" id="L96" title="1 of 2 branches missed.">                else if (charMap.get(h+2*i).get(w+2*j) == '.'){charMap.get(h).set(w,'.'); charMap.get(h+i).set(w+j,'@'); charMap.get(h+2*i).set(w+2*j,'*'); addStep(); logger.info(&quot;moved&quot;);}</span>
+            }
+<span class="pc bpc" id="L98" title="1 of 2 branches missed.">            else if (charMap.get(h+i).get(w+j) == '*'){</span>
+<span class="fc bfc" id="L99" title="All 2 branches covered.">                if (charMap.get(h+2*i).get(w+2*j) == ' '){charMap.get(h).set(w,'.'); charMap.get(h+i).set(w+j,'+'); charMap.get(h+2*i).set(w+2*j,'$'); addStep(); logger.info(&quot;moved&quot;);}</span>
+<span class="pc bpc" id="L100" title="1 of 2 branches missed.">                else if (charMap.get(h+2*i).get(w+2*j) == '.'){charMap.get(h).set(w,'.'); charMap.get(h+i).set(w+j,'+'); charMap.get(h+2*i).set(w+2*j,'*'); addStep(); logger.info(&quot;moved&quot;);}</span>
+            }
+        }
+<span class="fc" id="L103">    }</span>
 
+    /**
+     * Method for checking if a level is over.
+     * @return true if no finish blocks are free ({@literal &quot;.&quot;}) and the player does not stay on a finish block ({@literal &quot;+&quot;}).
+     */
     public boolean isLevelOver(){
-<span class="fc" id="L72">        boolean isOver = true;</span>
-<span class="fc bfc" id="L73" title="All 2 branches covered.">        for (List&lt;Character&gt; list: charMap) {</span>
-<span class="fc bfc" id="L74" title="All 2 branches covered.">            for (Character character: list) {</span>
-<span class="pc bpc" id="L75" title="2 of 4 branches missed.">                if (character.equals('.') || character.equals('+')) isOver = false;</span>
-<span class="fc" id="L76">            }</span>
-<span class="fc" id="L77">        }</span>
-<span class="fc" id="L78">        return isOver;</span>
+<span class="fc" id="L110">        boolean isOver = true;</span>
+<span class="fc bfc" id="L111" title="All 2 branches covered.">        for (List&lt;Character&gt; list: charMap) {</span>
+<span class="fc bfc" id="L112" title="All 2 branches covered.">            for (Character character: list) {</span>
+<span class="pc bpc" id="L113" title="2 of 4 branches missed.">                if (character.equals('.') || character.equals('+')) isOver = false;</span>
+<span class="fc" id="L114">            }</span>
+<span class="fc" id="L115">        }</span>
+<span class="fc" id="L116">        return isOver;</span>
     }
 
-    public void deletCharMap(){
-<span class="nc" id="L82">        this.charMap = null;</span>
-<span class="nc" id="L83">    }</span>
+    /**
+     * Method fpr deleting unnecessary {@code charMap}.
+     */
+    public void deleteCharMap(){
+<span class="fc" id="L123">        this.charMap = null;</span>
+<span class="fc" id="L124">    }</span>
 
+    /**
+     * Method for adding one to the {@code step}.
+     */
     public void addStep(){
-<span class="fc" id="L86">        step++;</span>
-<span class="fc" id="L87">    }</span>
+<span class="fc" id="L130">        step++;</span>
+<span class="fc" id="L131">    }</span>
 
+    /**
+     * Method for getting the {@code step} integer as a {@code String}.
+     * @return {@code step} as a string.
+     */
     public String getStepToString(){
-<span class="nc" id="L90">        return Integer.toString(step);</span>
+<span class="fc" id="L138">        return Integer.toString(step);</span>
     }
 
 }

@@ -37,7 +37,7 @@ var Packages = {
     "text": "model",
     "package": "model",
     "url": "model/pkg-summary.html",
-            "coverage": "52.4%",
+            "coverage": "90.6%",
         "icon": "aui-icon aui-icon-small aui-iconfont-devtools-folder-closed",
             "li_attr": {"data-is-link": "true"},
         "a_attr": {"href": "model/pkg-summary.html"},

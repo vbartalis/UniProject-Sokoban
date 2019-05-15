@@ -63,21 +63,23 @@ import java.util.ResourceBundle;
 <span class="nc" id="L63">    }</span>
 
     public void handleMinusClick(){
-<span class="nc" id="L66">        levelNumberLabel.setText(model.previousLevel(levelNumberLabel.getText()));</span>
-<span class="nc" id="L67">        handleResetClick();</span>
-<span class="nc" id="L68">    }</span>
+       // levelNumberLabel.setText(model.previousLevel(levelNumberLabel.getText()));
+<span class="nc" id="L67">        levelNumberLabel.setText(model.previousLevel());</span>
+<span class="nc" id="L68">        handleResetClick();</span>
+<span class="nc" id="L69">    }</span>
 
     public void handlePlusClick(){
-<span class="nc" id="L71">        levelNumberLabel.setText(model.nextLevel(levelNumberLabel.getText()));</span>
-<span class="nc" id="L72">        handleResetClick();</span>
-<span class="nc" id="L73">    }</span>
+      //  levelNumberLabel.setText(model.nextLevel(levelNumberLabel.getText()));
+<span class="nc" id="L73">        levelNumberLabel.setText(model.nextLevel());</span>
+<span class="nc" id="L74">        handleResetClick();</span>
+<span class="nc" id="L75">    }</span>
 
     public void handleDeleteRecords(){
-<span class="nc" id="L76">        model.deleteSaves();</span>
-<span class="nc" id="L77">        model.saveFileWriter();</span>
-<span class="nc" id="L78">        model.getSave();</span>
-<span class="nc" id="L79">        handleResetClick();</span>
-<span class="nc" id="L80">    }</span>
+<span class="nc" id="L78">        model.deleteSaves();</span>
+<span class="nc" id="L79">        model.saveFileWriter();</span>
+<span class="nc" id="L80">        model.getSave();</span>
+<span class="nc" id="L81">        handleResetClick();</span>
+<span class="nc" id="L82">    }</span>
 
 
 

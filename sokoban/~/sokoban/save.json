@@ -1,38 +1,22 @@
 [
   {
-    "recordStep": "37",
-    "levelNumber": 11
+    "recordStep": "-",
+    "levelNumber": 0
   },
   {
     "recordStep": "-",
-    "levelNumber": 10
+    "levelNumber": 1
   },
   {
     "recordStep": "-",
-    "levelNumber": 9
-  },
-  {
-    "recordStep": "-",
-    "levelNumber": 8
-  },
-  {
-    "recordStep": "-",
-    "levelNumber": 7
-  },
-  {
-    "recordStep": "-",
-    "levelNumber": 6
-  },
-  {
-    "recordStep": "-",
-    "levelNumber": 5
-  },
-  {
-    "recordStep": "-",
-    "levelNumber": 4
+    "levelNumber": 2
   },
   {
     "recordStep": "19",
     "levelNumber": 3
+  },
+  {
+    "recordStep": "-",
+    "levelNumber": 4
   }
 ]

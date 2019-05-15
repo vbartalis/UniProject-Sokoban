@@ -1,7 +1,458 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="550911ed-6de2-4ff8-974f-2bed9384ed28" name="Default Changelist" comment="" />
+    <list default="true" id="550911ed-6de2-4ff8-974f-2bed9384ed28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SokobanTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/ModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/PositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/SaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig10335146522688453437/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig105990136893255349/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig10602812415554822992/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig10658569465838839343/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig10972627908531489636/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig11533562935422098348/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig11629554134541727909/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig11922819787300791757/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig12111746276453044686/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig12196537875440911035/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig12574510462431855113/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig12719490017801942269/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig12885091212512929515/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig12974682534713298886/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig14102597110986618886/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig14605538478008814749/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig15039063591002171819/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig15408862077436510594/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig15564534868143634161/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig15634565223304664225/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig15656520380610735091/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig15761719475093638409/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig16069693513417868020/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig1647141228399498974/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig1684959781449049553/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig16940778154253335429/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig17122034539844679769/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig17205472065456271472/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig17339911111646550109/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig17547947744770968282/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig17827804458961173699/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig18033622520799341280/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig1821367207212697061/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig193419899837656285/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig2138452194123998774/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig219788792886186129/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig2933449961071713169/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig3299732304893413301/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig3758843293755706584/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig3945836626081756646/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig4102392857406219280/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig4891235295167043584/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig494051517083824832/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig5353125560277127127/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig5431913456758515763/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig659648998445105910/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig6609018510470947225/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig6696911891427470776/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig6896929486339733783/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig7163770312617848533/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig739181742864626746/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig8297269400859987136/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig8533355561762003569/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig9121972048465581661/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/groverconfig9886273466940528446/instrumentation.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/classes/controller/Controller$__CLR4_3_1167167jvpmh51r$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/classes/controller/Controller$__CLR4_3_1167167jvpmh51r.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/classes/model/Level$__CLR4_3_11h31h3jvpn03r1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/classes/model/Level$__CLR4_3_11h31h3jvpn03r1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/classes/model/Model$__CLR4_3_11bj1bjjvpn03sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/classes/model/Model$__CLR4_3_11bj1bjjvpn03sp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/classes/model/Position$__CLR4_3_11ei1eijvpmh555$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/classes/model/Position$__CLR4_3_11ei1eijvpmh555.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db348ufi_jvpgqzmk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db348ufi_jvpi1k51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db5k0bv4_jvpgfu4z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db5k0bv4_jvpgm1be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db6t0hwp_jvpicsmr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db6t0hwp_jvpid50m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db7ulcib_jvpmi54n" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db7ulcib_jvpn08ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvpgftwi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvpgm134" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvph873n" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvphj5ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvpigj7y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvpigj7y.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvpigxmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvpn0lat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db8hplzm_jvpn0lat.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db9r6tht_jvph87be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db9r6tht_jvphj62d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.db9r6tht_jvpn0lk2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbbo1zi0_jvpicsqr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbbo1zi0_jvpid53t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbd4qqgt_jvpi1k91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbd4qqgt_jvpmhb9d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbd4qqgt_jvpn08eo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbdiy0g5_jvpicsin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbdiy0g5_jvpid4vk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbdiy0g5_jvpmi4sj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbdiy0g5_jvpmi4sj.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbdiy0g5_jvpn085l" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbfwtpag_jvpn0lmo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbh4faok_jvpmi3fl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbh4faok_jvpmi3fl.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbh4faok_jvpn072c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbh4faok_jvpn072c.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbil20h5_jvpfjpyw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjhoif_jvpfjos5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjhoif_jvpfjos5.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvpgfsp5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvpgfsp5.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvpgm01k" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvpgm01k.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvph85v6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvph85v6.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvphj4a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvphj4a1.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvpigi42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvpigi42.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvpigwn1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbjtcp65_jvpigwn1.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbk0l9sg_jvpfjq7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbm7vanw_jvph87c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbmsendt_jvpgqzr7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbmsendt_jvpi1k8i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbmsendt_jvpmhb8g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbo98ugm_jvpmh9sg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbo98ugm_jvpmh9sg.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbozneyl_jvpgfu1k" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbozneyl_jvpgm17y" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbozneyl_jvph8796" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbozneyl_jvphj5yv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbozneyl_jvpigjby" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbozneyl_jvpigxqv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbpiwure_jvpgqzhq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbpiwure_jvpgqzhq.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbpiwure_jvpi1k03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbpiwure_jvpmhb1e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbpl99gl_jvpn0lkj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbqhylhf_jvpgqy6c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbqhylhf_jvpgqy6c.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbqhylhf_jvpi1iwc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbqhylhf_jvpi1iwc.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbqk2m2j_jvpicrdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbqk2m2j_jvpicrdf.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbqk2m2j_jvpid3ng" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbqk2m2j_jvpid3ng.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbrob2h4_jvpigjfj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbrob2h4_jvpigxu4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbrob2h4_jvpmi548" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbrob2h4_jvpn08eb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbs2f4i2_jvpgqzsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbs2f4i2_jvpicssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbs2f4i2_jvpid56n" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbs2f4i2_jvpmi57b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbs9wws_jvpfjq8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbs9wws_jvpigjdn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbs9wws_jvpigxt9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbub4q7z_jvphj62g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbub4q7z_jvpn0lk9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbujedfk_jvpn0kcv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbujedfk_jvpn0kcv.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbw7kjpw_jvpgfu70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbw7kjpw_jvpgm1dx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbw7kjpw_jvphj63a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbw7kjpw_jvpigjis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbw7kjpw_jvpigxvu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbwq5yan_jvpicso7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbwq5yan_jvpid521" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbx7kaw4_jvpi1kbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbx7kaw4_jvpmhban" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/clover.dbx7kaw4_jvpn08fp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/src-test/SokobanTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/src-test/model/LevelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/src-test/model/ModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/src-test/model/PositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/src-test/model/SaveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-model.LevelTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-model.ModelTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-model.PositionTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-model.SaveTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/surefire-reports/model.LevelTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/surefire-reports/model.ModelTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/surefire-reports/model.PositionTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/surefire-reports/model.SaveTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/SokobanTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/LevelTest$__CLR4_3_1oqoqjvpfjkmy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/LevelTest$__CLR4_3_1oqoqjvpfjkmy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/LevelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/ModelTest$__CLR4_3_11f51f5jvpmh56x$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/ModelTest$__CLR4_3_11f51f5jvpmh56x.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/ModelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/PositionTest$__CLR4_3_111j11jjvpgfoe3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/PositionTest$__CLR4_3_111j11jjvpgfoe3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/PositionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/clover/test-classes/model/SaveTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/SokobanTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/SokobanTestSuite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/test-SokobanTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/LevelTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/LevelTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/ModelTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/ModelTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/PositionTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/PositionTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/SaveTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/SaveTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/test-LevelTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/test-ModelTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/test-PositionTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/test-SaveTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/clover/model/testsrc-pkg-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/testapidocs/SokobanTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/testapidocs/class-use/SokobanTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/testapidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/SokobanTestSuite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/model/LevelTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/model/ModelTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/model/PositionTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/model/SaveTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/model/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.LevelTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.ModelTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.PositionTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-model.SaveTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/model.LevelTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/model.ModelTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/model.PositionTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/model.SaveTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/sokoban.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SokobanTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/model/ModelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/model/PositionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/model/SaveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Save.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LevelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/LevelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModelTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Model$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Model$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Model$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Save.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/controller/Controller$__CLR4_3_122jvp8kav2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/controller/Controller$__CLR4_3_122jvp8kav2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Level$__CLR4_3_11g1gjvp8kaw8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Level$__CLR4_3_11g1gjvp8kaw8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Model$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Model$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Model$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Model$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Model$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Model$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Model$__CLR4_3_15f5fjvp8kaxj$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Model$__CLR4_3_15f5fjvp8kaxj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Position$__CLR4_3_18g8gjvp8kay3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/test-classes/model/SaveTest$__CLR4_3_1xxxxjvpfjknz$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Position$__CLR4_3_18g8gjvp8kay3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/test-classes/model/SaveTest$__CLR4_3_1xxxxjvpfjknz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Save$__CLR4_3_18u8ujvp8kay9$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Save$__CLR4_3_11l11l1jvpn03t9$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Save$__CLR4_3_18u8ujvp8kay9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Save$__CLR4_3_11l11l1jvpn03t9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/model/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/model/Save.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/clover.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/original-sokoban-1.0-SNAPSHOT-clover.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/original-sokoban-1.0-SNAPSHOT-clover.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/sokoban-1.0-SNAPSHOT-clover.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/sokoban-1.0-SNAPSHOT-clover.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/model/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/model/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/model/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/model/Save.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/LevelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/LevelTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/ModelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/ModelTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-LevelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-LevelTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-ModelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-ModelTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-sokoban-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-sokoban-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/Launcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/Launcher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/class-use/Launcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/class-use/Launcher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/class-use/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/class-use/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/Level.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/Level.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/Position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/Save.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/Save.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Level.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Level.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Save.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Save.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/class-use/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/class-use/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/agg-pkgs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/agg-pkgs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/clover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/controller/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/controller/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/controller/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/controller/Controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/controller/pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/controller/pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/controller/quick-wins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/controller/quick-wins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/controller/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/controller/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/controller/top-risks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/controller/top-risks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/Launcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/Launcher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/LevelTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/LevelTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/LevelTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/LevelTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ModelTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/ModelTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ModelTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/ModelTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/quick-wins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/quick-wins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/testsrc-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/testsrc-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/top-risks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/top-risks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/classComplexityChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/classComplexityChart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/classDistrubutionChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/classDistrubutionChart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart10.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart2.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart3.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart4.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart5.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart6.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart7.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart8.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart9.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/srcFileCovDistChart9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/Level.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/Level.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/Level.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/Level.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/Position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/Position.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/Position.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/Save.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/Save.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/Save.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/Save.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/quick-wins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/quick-wins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/model/top-risks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/model/top-risks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/package-nodes-tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/package-nodes-tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/quick-wins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/quick-wins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/testsrc-agg-pkgs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/testsrc-agg-pkgs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/testsrc-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/testsrc-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/top-risks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/top-risks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/treemap-dash-json.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/treemap-dash-json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/treemap-json.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/treemap-json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/treemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/treemap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/view/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/view/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/view/pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/view/pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/view/quick-wins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/view/quick-wins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/view/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/view/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/view/top-risks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/view/top-risks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/controller/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/controller/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/controller/Controller.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/controller/Controller.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/controller/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/controller/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/controller/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Level.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Level.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Level.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Level.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Model$1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Model$1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Model$2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Model$2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Model$3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Model$3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Model.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Model.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Position.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Position.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Save.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Save.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/Save.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/Save.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/model/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/model/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/surefire-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/surefire-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/controller/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/controller/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/model/Level.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/Level.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/model/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/model/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/Position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/model/Save.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/Save.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sokoban-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sokoban-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LevelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/model/LevelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ModelTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,137 +462,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/LevelTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="696">
-                  <caret line="297" column="5" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1485">
-                  <caret line="236" column="16" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/ModelTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/view/View.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/model/Save.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/model/Level.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/model/Model.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="102" column="22" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/checkstyle.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#697#698#0" expanded="true" />
-                    <element signature="e#731#732#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/ModelTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Level.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5110#5111#0" expanded="true" />
+                <element signature="e#5145#5146#0" expanded="true" />
+                <element signature="e#5239#5240#0" expanded="true" />
+                <element signature="e#5261#5262#0" expanded="true" />
+                <element signature="e#5428#5429#0" expanded="true" />
+                <element signature="e#5473#5474#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Save.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6043#6044#0" expanded="true" />
+                <element signature="e#6089#6090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -153,6 +527,13 @@
       <find>w</find>
       <find>tiles</find>
       <find>testCharMap</find>
+      <find>testCharMap1</find>
+      <find>testCharMap2</find>
+      <find>x</find>
+      <find>y</find>
+      <find>level</find>
+      <find>witch</find>
+      <find>doc</find>
     </findStrings>
     <replaceStrings>
       <replace>getLevel().getCharMap()</replace>
@@ -169,7 +550,16 @@
       <replace>expectedCharMap32</replace>
       <replace>expectedCharMap41</replace>
       <replace>expectedCharMap42</replace>
+      <replace>originalCharMap1</replace>
+      <replace>i</replace>
+      <replace>j</replace>
+      <replace>levelNumber</replace>
+      <replace>which</replace>
+      <replace>originalCharMap2</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,13 +576,18 @@
         <option value="$PROJECT_DIR$/src/main/java/view/View.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Position.java" />
         <option value="$PROJECT_DIR$/src/test/java/LevelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ModelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/LevelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/SaveTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/PositionTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SokobanTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/ModelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Level.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Save.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ModelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Model.java" />
       </list>
     </option>
@@ -220,11 +615,14 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="993" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-271" />
+    <option name="y" value="27" />
+    <option name="width" value="1843" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -273,6 +671,38 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sokoban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sokoban" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sokoban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sokoban" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sokoban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sokoban" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sokoban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sokoban" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sokoban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sokoban" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -281,17 +711,28 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557926198649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557949712559" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../13/rolling-cubes" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/json" />
       <recent name="$PROJECT_DIR$/src/main/resources/image" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -317,40 +758,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModelTest.getSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sokoban" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LevelTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LevelTest.testIsLevelOver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sokoban" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LevelTest" />
-      <option name="METHOD_NAME" value="testIsLevelOver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.ModelTest" />
+      <option name="METHOD_NAME" value="getSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelTest.testMoveUp1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModelTest.nextLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sokoban" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LevelTest" />
-      <option name="METHOD_NAME" value="testMoveUp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.ModelTest" />
+      <option name="METHOD_NAME" value="nextLevel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelTest.testMoveUp2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModelTest.previousLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sokoban" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LevelTest" />
-      <option name="METHOD_NAME" value="testMoveUp2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.ModelTest" />
+      <option name="METHOD_NAME" value="previousLevel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositionTest.setPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sokoban" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.PositionTest" />
+      <option name="METHOD_NAME" value="setPosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -359,10 +825,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Launcher" />
-        <item itemvalue="JUnit.LevelTest.testIsLevelOver" />
-        <item itemvalue="JUnit.LevelTest.testMoveUp2" />
-        <item itemvalue="JUnit.LevelTest.testMoveUp1" />
-        <item itemvalue="JUnit.LevelTest" />
+        <item itemvalue="JUnit.ModelTest.nextLevel" />
+        <item itemvalue="JUnit.ModelTest.previousLevel" />
+        <item itemvalue="JUnit.PositionTest.setPosition" />
+        <item itemvalue="JUnit.ModelTest.getSave" />
       </list>
     </recent_temporary>
   </component>
@@ -380,63 +846,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LevelTest_testMoveUp1 - 2019.05.15 at 13h 16m 59s.xml">
-      <configuration name="LevelTest.testMoveUp1" configurationId="JUnit" />
+    <history-entry file="PositionTest_setPosition - 2019.05.15 at 18h 26m 10s.xml">
+      <configuration name="PositionTest.setPosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testMoveUp1 - 2019.05.15 at 13h 18m 48s.xml">
-      <configuration name="LevelTest.testMoveUp1" configurationId="JUnit" />
+    <history-entry file="PositionTest_setPosition - 2019.05.15 at 18h 26m 33s.xml">
+      <configuration name="PositionTest.setPosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testMoveUp1 - 2019.05.15 at 13h 19m 54s.xml">
-      <configuration name="LevelTest.testMoveUp1" configurationId="JUnit" />
+    <history-entry file="PositionTest_setPosition - 2019.05.15 at 18h 28m 37s.xml">
+      <configuration name="PositionTest.setPosition" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testMoveUp1 - 2019.05.15 at 13h 21m 39s.xml">
-      <configuration name="LevelTest.testMoveUp1" configurationId="JUnit" />
+    <history-entry file="ModelTest_previousLevel - 2019.05.15 at 21h 01m 54s.xml">
+      <configuration name="ModelTest.previousLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testMoveUp1 - 2019.05.15 at 13h 26m 31s.xml">
-      <configuration name="LevelTest.testMoveUp1" configurationId="JUnit" />
+    <history-entry file="ModelTest_previousLevel - 2019.05.15 at 21h 02m 30s.xml">
+      <configuration name="ModelTest.previousLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testMoveUp1 - 2019.05.15 at 13h 27m 46s.xml">
-      <configuration name="LevelTest.testMoveUp1" configurationId="JUnit" />
+    <history-entry file="ModelTest_nextLevel - 2019.05.15 at 21h 02m 35s.xml">
+      <configuration name="ModelTest.nextLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testMoveUp1 - 2019.05.15 at 13h 29m 40s.xml">
-      <configuration name="LevelTest.testMoveUp1" configurationId="JUnit" />
+    <history-entry file="ModelTest_nextLevel - 2019.05.15 at 21h 02m 57s.xml">
+      <configuration name="ModelTest.nextLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testMoveUp2 - 2019.05.15 at 13h 32m 22s.xml">
-      <configuration name="LevelTest.testMoveUp2" configurationId="JUnit" />
+    <history-entry file="ModelTest_nextLevel - 2019.05.15 at 21h 06m 43s.xml">
+      <configuration name="ModelTest.nextLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testIsLevelOver - 2019.05.15 at 13h 35m 32s.xml">
-      <configuration name="LevelTest.testIsLevelOver" configurationId="JUnit" />
+    <history-entry file="ModelTest_nextLevel - 2019.05.15 at 21h 07m 37s.xml">
+      <configuration name="ModelTest.nextLevel" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevelTest_testIsLevelOver - 2019.05.15 at 13h 36m 31s.xml">
-      <configuration name="LevelTest.testIsLevelOver" configurationId="JUnit" />
+    <history-entry file="ModelTest_nextLevel - 2019.05.15 at 21h 46m 19s.xml">
+      <configuration name="ModelTest.nextLevel" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12451577" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.255119" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3297414" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.3297414" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5002767" side_tool="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3297414" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39978448" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4997233" weight="0.33045357" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.12174875" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.12174875" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -448,15 +913,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12451577" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2553916" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3297414" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3297414" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.33045357" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39978448" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -464,7 +929,7 @@
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.12174875" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.24971624" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -476,17 +941,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/position.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/json/save.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/json/map.json" />
     <entry file="file://$PROJECT_DIR$/log4j-example.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -499,47 +953,10 @@
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LevelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="297" column="5" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Save.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -560,27 +977,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="236" column="16" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LevelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="281" column="64" lean-forward="true" selection-start-line="163" selection-start-column="8" selection-end-line="281" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/SaveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/PositionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.2-open/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2626">
+          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SokobanTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/LevelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4380">
+          <caret line="298" column="8" lean-forward="true" selection-start-line="298" selection-start-column="8" selection-end-line="304" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
+        <state relative-caret-position="459">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
@@ -589,20 +1088,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ModelTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Level.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="313">
+          <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5110#5111#0" expanded="true" />
+            <element signature="e#5145#5146#0" expanded="true" />
+            <element signature="e#5239#5240#0" expanded="true" />
+            <element signature="e#5261#5262#0" expanded="true" />
+            <element signature="e#5428#5429#0" expanded="true" />
+            <element signature="e#5473#5474#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="102" column="22" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6043#6044#0" expanded="true" />
+            <element signature="e#6089#6090#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Save.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
         </state>
       </provider>
     </entry>
