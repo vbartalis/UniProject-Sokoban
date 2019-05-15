@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Model.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">sokoban</a> &gt; <a href="index.source.html" class="el_package">model</a> &gt; <span class="el_source">Model.java</span></div><h1>Model.java</h1><pre class="source lang-java linenums">package model;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
+import javafx.scene.layout.Pane;
+import lombok.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.*;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Model {
+    static List&lt;Level&gt; levels;
+    static List&lt;Save&gt; saves;
+<span class="nc" id="L20">    @Getter @Setter</span>
+    static int levelNumber;
+<span class="nc" id="L22">    private static Logger logger = LoggerFactory.getLogger(Model.class);</span>
+
+
+<span class="nc" id="L25">    public Model() {</span>
+<span class="nc" id="L26">        logger.info(&quot;constructing Model&quot;);</span>
+<span class="nc" id="L27">        this.levelNumber = 0;</span>
+<span class="nc" id="L28">        this.levels = levelFileReader();</span>
+<span class="nc" id="L29">        this.saves = saveFileReader();</span>
+<span class="nc" id="L30">        levels.get(levelNumber).newCharMap();</span>
+<span class="nc" id="L31">    }</span>
+
+    public List&lt;Level&gt; levelFileReader(){
+<span class="nc" id="L34">        logger.info(&quot;reading level file&quot;);</span>
+<span class="nc" id="L35">        Gson gson = new GsonBuilder().create();</span>
+<span class="nc" id="L36">        Reader reader = new InputStreamReader(getClass().getResourceAsStream(&quot;/json/levels.json&quot;));</span>
+<span class="nc" id="L37">        Type type = new TypeToken&lt;List&lt;Level&gt;&gt;(){}.getType();</span>
+<span class="nc" id="L38">        List&lt;Level&gt;levels = gson.fromJson(reader, type);</span>
+<span class="nc" id="L39">        return levels;</span>
+
+    }
+
+    public List&lt;Save&gt; saveFileReader(){
+<span class="nc" id="L44">        logger.info(&quot;trying to read save file&quot;);</span>
+<span class="nc" id="L45">        List&lt;Save&gt; saves = new ArrayList&lt;&gt;();</span>
+        try {
+<span class="nc" id="L47">            Gson gson = new GsonBuilder().create();</span>
+<span class="nc" id="L48">            Reader reader = null;</span>
+<span class="nc" id="L49">            reader = new FileReader(&quot;~/sokoban/save.json&quot;);</span>
+<span class="nc" id="L50">            Type type = new TypeToken&lt;List&lt;Save&gt;&gt;(){}.getType();</span>
+<span class="nc" id="L51">            saves = gson.fromJson(reader, type);</span>
+<span class="nc" id="L52">            logger.info(&quot;save file successfully red&quot;);</span>
+<span class="nc" id="L53">        } catch (FileNotFoundException e) {</span>
+<span class="nc" id="L54">            logger.info(&quot;no save file found, creating new save&quot;);</span>
+<span class="nc" id="L55">            Save newSave = new Save(levelNumber);</span>
+<span class="nc" id="L56">            saves.add(newSave);</span>
+<span class="nc" id="L57">        }</span>
+<span class="nc" id="L58">        return saves;</span>
+    }
+
+    public void saveFileWriter(){
+<span class="nc" id="L62">        logger.info(&quot;trying to save&quot;);</span>
+        try {
+<span class="nc" id="L64">            File file = new File(&quot;~/sokoban/save.json&quot;);</span>
+<span class="nc" id="L65">            File parent = file.getParentFile();</span>
+<span class="nc bnc" id="L66" title="All 4 branches missed.">            if (!parent.exists() &amp;&amp; !parent.mkdirs()) {</span>
+<span class="nc" id="L67">                throw new IllegalStateException(&quot;Couldn't create dir: &quot; + parent);</span>
+            }
+<span class="nc" id="L69">            file.createNewFile();</span>
+<span class="nc" id="L70">            Gson gson = new GsonBuilder().setPrettyPrinting().create();</span>
+<span class="nc" id="L71">            Writer writer = new FileWriter(file);</span>
+
+<span class="nc" id="L73">            Type type = new TypeToken&lt;List&lt;Save&gt;&gt;() {</span>
+<span class="nc" id="L74">            }.getType();</span>
+<span class="nc" id="L75">            String json = gson.toJson(saves, type);</span>
+
+<span class="nc" id="L77">            writer.write(json);</span>
+<span class="nc" id="L78">            writer.close();</span>
+<span class="nc" id="L79">            logger.info(&quot;file successfully saved&quot;);</span>
+<span class="nc" id="L80">        } catch (IOException e) {</span>
+<span class="nc" id="L81">            logger.error(&quot;couldn't write save file&quot;);</span>
+<span class="nc" id="L82">            e.printStackTrace();</span>
+<span class="nc" id="L83">        }</span>
+
+<span class="nc" id="L85">    }</span>
+
+    public String nextLevel(String level){
+<span class="nc" id="L88">        logger.info(&quot;geting next level&quot;);</span>
+<span class="nc" id="L89">        int integer = Integer.parseInt(level);</span>
+<span class="nc bnc" id="L90" title="All 2 branches missed.">        if (integer &lt; levels.size()) return Integer.toString(integer + 1);</span>
+<span class="nc" id="L91">        return level;</span>
+    }
+
+    public String previousLevel(String level){
+<span class="nc" id="L95">        logger.info(&quot;geting previous level&quot;);</span>
+<span class="nc" id="L96">        int integer = Integer.parseInt(level);</span>
+<span class="nc bnc" id="L97" title="All 2 branches missed.">        if (integer &gt; 0) return Integer.toString(integer - 1);</span>
+<span class="nc" id="L98">        return level;</span>
+    }
+
+    public void setNewLevel(String newLevelNumberString){
+<span class="nc" id="L102">        logger.info(&quot;setting up next level&quot;);</span>
+<span class="nc" id="L103">        int newLevelNumberInt = Integer.parseInt(newLevelNumberString);</span>
+<span class="nc" id="L104">        setLevelNumber(newLevelNumberInt);</span>
+<span class="nc" id="L105">        levels.get(levelNumber).deletCharMap();</span>
+<span class="nc" id="L106">        levels.get(levelNumber).setStep(0);</span>
+<span class="nc" id="L107">        levels.get(newLevelNumberInt).newCharMap();</span>
+<span class="nc" id="L108">    }</span>
+
+
+
+
+    public int getScale(Pane pane){
+<span class="nc" id="L114">        logger.info(&quot;getting scale of game pane&quot;);</span>
+        int scale;
+<span class="nc" id="L116">        double dispHeight = pane.getHeight();</span>
+<span class="nc" id="L117">        double dispWidth = pane.getWidth();</span>
+
+<span class="nc bnc" id="L119" title="All 2 branches missed.">        if (dispHeight == 0){</span>
+<span class="nc" id="L120">            dispHeight = pane.getPrefHeight();</span>
+        }
+<span class="nc bnc" id="L122" title="All 2 branches missed.">        if (dispWidth == 0){</span>
+<span class="nc" id="L123">            dispWidth = pane.getPrefWidth();</span>
+        }
+
+<span class="nc" id="L126">        int levelHeight = getLevel().getHeight();</span>
+<span class="nc" id="L127">        int levelWidth = getLevel().getWidth();</span>
+
+<span class="nc bnc" id="L129" title="All 2 branches missed.">        if (dispHeight/levelHeight &lt; dispWidth/levelWidth){</span>
+<span class="nc" id="L130">            scale = (int) (dispHeight / levelHeight);</span>
+        }
+        else {
+<span class="nc" id="L133">            scale = (int) (dispWidth / levelWidth);</span>
+        }
+<span class="nc" id="L135">        return scale;</span>
+
+    }
+
+    public Level getLevel(){
+<span class="nc" id="L140">        return levels.get(levelNumber);</span>
+    }
+
+    public Save getSave(){
+<span class="nc" id="L144">        logger.info(&quot;trying to get save of level {}&quot;, levelNumber);</span>
+<span class="nc bnc" id="L145" title="All 2 branches missed.">        if (!saves.isEmpty()) {</span>
+<span class="nc bnc" id="L146" title="All 2 branches missed.">            for (Save save : saves) {</span>
+<span class="nc bnc" id="L147" title="All 2 branches missed.">                if (save.getLevelNumber() == levelNumber) {</span>
+
+<span class="nc" id="L149">                    return save;</span>
+                }
+<span class="nc" id="L151">            }</span>
+        }
+<span class="nc" id="L153">        logger.info(&quot;no save found, making a new one&quot;);</span>
+<span class="nc" id="L154">        Save newSave = new Save(levelNumber);</span>
+<span class="nc" id="L155">        saves.add(newSave);</span>
+<span class="nc" id="L156">        return newSave;</span>
+    }
+
+
+    public void deleteSaves(){
+<span class="nc" id="L161">        logger.info(&quot;deleting saves&quot;);</span>
+<span class="nc" id="L162">        saves.clear();</span>
+<span class="nc" id="L163">    }</span>
+
+
+
+
+
+
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>
