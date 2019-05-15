@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2019</copyright>
     <item>
-      <title>File: 7,
-             Errors: 18,
+      <title>File: 8,
+             Errors: 15,
              Warnings: 0,
              Infos: 0
       </title>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#model.Position.java">model/Position.java</a>
+                  <a href="${project.url}/checkstyle.html#model.package-info.java">model/package-info.java</a>
                 </td>
                 <td>
                   0
@@ -83,7 +83,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  4
+                  3
                 </td>
               </tr>
                           <tr>
@@ -97,7 +97,21 @@ under the License.
                   0
                 </td>
                 <td>
-                  1
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#controller.package-info.java">controller/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
                 </td>
               </tr>
                           <tr>
@@ -116,20 +130,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#model.Save.java">model/Save.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="${project.url}/checkstyle.html#controller.Controller.java">controller/Controller.java</a>
                 </td>
                 <td>
@@ -139,7 +139,21 @@ under the License.
                   0
                 </td>
                 <td>
-                  7
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#view.package-info.java">view/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
                 </td>
               </tr>
                       </tbody>

@@ -25,7 +25,7 @@ public class Model {
      */
     List<Save> saves;
     /**
-     * the number of the current level
+     * the number of the current level.
      */
     int levelNumber;
     private static Logger logger = LoggerFactory.getLogger(Model.class);
